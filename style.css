@@ -18,10 +18,15 @@ body {
     background-color: var(--secondary-color);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    color: #ffff;
 }
 
 header {
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    justify-content: center;
+    padding: 30px;
 }
 
 main {
@@ -29,12 +34,24 @@ main {
 }
 
 section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .bg-blue {
     background: #09212A;
+}
+
+.padding_xl {
+    padding: 4rem 0 4rem 0;
+}
+
+.padding-y__l {
+    padding: 2rem 0 2rem 0;
+}
+
+.border_xl {
+    border-radius: 1.4rem;
 }
 
 .bs_container__xxl {
@@ -51,9 +68,20 @@ section {
     padding-left: 16px;
 }
 
+.bs_container>h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .title {
     font-size: 2.5rem;
     text-align: center;
     color: var(--white);
     margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
 }

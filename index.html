@@ -4,27 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/books.png" type="image/x-icon">
     <title>Bookstore</title>
 
+    <script src="./books.js"></script>
     <script src="./template.js"></script>
     <script src="./script.js"></script>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./book.css">
 </head>
 
-<body>
-    <header>
+<body onload="init()">
+    <header class="bg-blue">
         <div class="bs_container__xxl">
-            <h1>BookStore</h1>
+            <div class="header">
+                <img src="./images/books.png" alt="" class="logo">
+                <h1>BookStore</h1>
+            </div>
         </div>
     </header>
 
     <main>
-        <h2>Content</h2>
+        <section>
+            <div class="bs_container">
+                <h2>Unsere Bücher</h2>
+                <div class="book__wrapper" id="book__wrapper">
+
+                </div>
+            </div>
+        </section>
     </main>
 
-    <Footer>
-        <h2>Footer</h2>
+    <Footer class="bg-blue padding_xl">
+        <div class="bs_container__xxl">
+            <h2>Footer</h2>
+        </div>
     </Footer>
 </body>
 

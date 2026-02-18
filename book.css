@@ -1,0 +1,77 @@
+/* Styles for book layout */
+
+td {
+    font-size: 14px;
+}
+
+.book__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+.book__card {
+    background-color: rgba(255, 255, 255, 0.158);
+    width: 320px;
+    border: 2px solid gray;
+    padding: 2rem;
+    margin-bottom: 30px;
+}
+
+.book__title_wrapper {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.233);
+    border: 2px solid gray;
+    padding: 12px;
+    text-align: center;
+    box-sizing: border-box
+}
+
+.book__content__image_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.price_fav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price_fav_wrapper__fav {
+    display: flex;
+    align-items: center;
+}
+
+
+.writeCommentInput {
+    width: 100%;
+    padding: 13px;
+    margin-top: 30px;
+    border-radius: 12px;
+    border: 0;
+    box-shadow: 0 0 10px #1e1e1e;
+    box-sizing: border-box;
+}
+
+.writeCommentBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid #8f3912;
+    border-radius: 12px;
+    background: #ff5d2a;
+    color: white;
+    font-weight: 600;
+}
+
+.writeCommentBtn:hover {
+    background: #d54011;
+    transition: .2s ease-in;
+}
